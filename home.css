@@ -1,0 +1,82 @@
+.header{
+  background-image: url(images/header.png);
+  background-size: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+nav .container{
+
+  padding-left: 170px;
+}
+.logo {
+      margin: auto ;
+      display: inherit;
+      padding: 55px;
+}
+.bi-shop{
+  width: 20px;
+  height: 20px;
+}
+#about{
+  margin: 50px;
+  padding: 50px;
+  
+  color: rgb(141, 8, 8);
+  font-family:cursive;
+
+}
+.bi-file-earmark-person-fill{
+  width: 25px;
+  height: 25px;
+}
+
+.footer {
+  background-image: url(images/footer.png);
+  /* background-size: 100%; 
+  background-position: center;*/
+
+  
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  margin: auto;
+  
+}
+.footerlogo{    
+  vertical-align: middle;
+  margin-left: auto;
+}
+.footer p{
+  font-size: 17 px;
+  color:rgb(253, 252, 250); 
+  margin-left: 30px;
+  font-family:Cursive
+  
+}
+.footerr {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.bi-instagram {
+  color: rgb(209, 144, 24) !important;
+  width: 30px;
+  height: 30px;
+}
+.bi-github{
+  color: rgb(209, 144, 24) !important;
+  width: 30px;
+  height: 30px;
+}
+.bi-facebook{
+  color: rgb(209, 144, 24) !important;
+  width: 30px;
+  height: 30px;
+}
+.socialmedia{
+  padding: 10px;
+  
+}

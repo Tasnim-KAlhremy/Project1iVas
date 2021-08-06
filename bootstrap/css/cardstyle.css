@@ -1,0 +1,55 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.back{
+    position: absolute;
+    margin: auto;
+    width: 360px;
+    height: 430px;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(228, 228, 226, 0.856);
+    border-radius: 35px;
+    transform:skewX(20deg) skewY(346deg)
+}
+.card{
+    position: absolute;
+    margin: auto;
+    width: 360px;
+    height: 460px;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #4d79ff;
+    border-radius: 35px;
+    transform:skewX(351deg) skewY(359deg) rotate(-5deg);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.card img{
+    width: 360px;
+    height: 230px;
+    border-top-left-radius:35px ;
+    border-top-right-radius:35px ;
+}
+.card .doc{
+    width:350px ;
+    height: 230px;
+    margin: 10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+   transform:skewX(4deg) skewY(4deg);
+
+}
+.card .doc h3{
+    padding-top: 10px;
+}

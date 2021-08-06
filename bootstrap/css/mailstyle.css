@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#body{
+    width: 100vw;
+    height: 100vh;
+    background: #D6DBDF;
+
+}
+#login{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1100px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);}
+.main{
+    position: fixed;
+
+    height: 100%;
+  
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    width:65%;
+    right: 0;
+  
+}
+.nav{
+    position: fixed;
+
+    height: 100%;
+  
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    width:35%;
+    left: 0;
+    background-color: #212F3D;
+}
+.header{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+input[type=text],textarea{
+    width: 80%;
+background-color: #E5E8E8; 
+    padding: 12px 20px;
+    margin: 10px 0;
+    margin-left: 60px;
+ 
+    display: inline-block;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+}
+button{
+    width: 30%;
+    height: 50px;
+    padding: 12px 20px;
+    background: rgb(75, 75, 185);
+    margin: 45px 0;
+    margin-left: 35%;
+    display: inline-block;
+    border: 1px solid #ccc;
+  text-align: center;
+    box-sizing: border-box;
+
+}
+button:hover{
+
+    background: rgb(221, 224, 10);
+    cursor: pointer;
+
+}
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 200px;
+    margin: auto;
+}
+.nav p{
+    position: absolute;
+    top:300px;
+    right: 0;
+    left:0;
+    bottom: 0px;
+    margin: auto;
+    color: white;
+    font-size: medium;
+    font-family: monospace;
+    padding: 10px;
+}

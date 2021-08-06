@@ -1,0 +1,20 @@
+p.kind{
+    padding-top: 4px;
+    padding-left: 40px;
+    text-align: center;
+    position: relative;
+    font-family: cursive;
+    color: #1a75ff;
+    text-transform: uppercase;
+
+}
+
+p.price{
+    padding-top: 4px;
+    padding-left: 90px;
+    text-align: center;
+    position: relative;
+    font-family: cursive;
+    color: rgb(160, 35, 35);
+
+}
